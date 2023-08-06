@@ -1,0 +1,60 @@
+.sign_box{
+    width: 500px;
+}
+.login_box{
+    width: 500px;
+}
+.home_section{
+    background: url('home-img.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.discuss_section{
+    background: url('discuss-sec.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.discuss_section .box{
+    width: 200px;
+    height: 200px;
+}
+.msg_section{
+    background: url('webmessage.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.navbar .dropdown-item:hover{
+    background: #ffdede42;
+}
+.navbar img{
+    width: 130px;
+}
+#scrollToTop:hover{
+    background: #ffffff42;
+}
+.askquestion textarea{
+    resize: none;
+}
+.user_question{
+    background-color: #c5c5c5b9;
+}
+.page-link:active{
+    background: #0d6efd;
+    color: #fff;
+}
+
+@media (max-width : 991px){
+    .navbar .nav-item{
+        border-bottom: 2px solid #fff;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .navbar .dropdown-item{
+        border: 2px solid #fff;
+        margin-bottom: 5px;
+    }
+    .navbar{
+        font-size: 50%;
+    }
+}
